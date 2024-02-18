@@ -1,0 +1,63 @@
+* {
+    border: 0;    margin: 0;
+    box-sizing:border-box;
+    list-style: none;
+}
+
+.menu{
+    width: 80%; height: 50px;
+    border: 1px solid #ccc;
+    background: #ccc;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid orange;
+}
+.menu li{
+    margin-left: -40px;
+    width: 14%; height: 100%;
+    line-height: 50px;
+    border: 2px solid green;
+    text-align: center;
+    
+}
+
+
+
+/* 큰 그림 박스 */
+
+
+#big{
+    width: 80%; height: 700px;
+    border: 3px solid yellow;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#big:hover img{
+    transform: scale(1.5);
+    transition: all 0.5s;
+    /* transition = 수행시간 */
+}
+
+#big img{
+    width: 100%; height: 100%;
+}
+
+
+/* 작은 그림 7개 */
+
+.img7 {
+    width: 80%; height: 100px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid blue;
+}
+.img7 p{
+    width: 14%; height: 100%;
+    border: 1px solid red;
+    text-align: center;
+    cursor: pointer;
+}
+
+

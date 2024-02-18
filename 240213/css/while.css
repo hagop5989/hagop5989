@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    border: 0; padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: yg-jalnan;
+}
+a { color: black;}
+
+header {
+    width: 300px; height: 50px;
+    line-height: 50px;
+    font-size: 2rem;
+    border: 1px solid black;
+    background: grey;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+
+}
+
+nav {
+    width: 80%; height: 50px;
+    border: 0px solid blue;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav div {
+    width: 150px; height: 100%;
+    border: 1px solid #ccc;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+nav div:hover {
+    background: black;
+    color: white;
+}
+.menu_pic_wrap0 {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+
+}
+
+.menu_pic {
+    margin-left: 30px;
+    width: 100%; height: 300px;
+    border: 1px solid red;
+}
+
+.sec0 > div {
+    position: relative;
+    top: 0; left: 0;
+    overflow: hidden;
+}
+
+.sec0 > div:hover div {
+    top: 30%;
+    transition: 0.5s;
+}
+
+.sec0 > div > div {
+    position: absolute;
+    top: 80%; left: 0;
+    width: 100%; height: 100%;
+    background: rgb(0, 0, 0, 0.6);
+    color: white;
+}
+
+.sec0 > div > div p{
+    width: 100%; height: ;
+    line-height: 45px;
+    text-indent: 15px;
+    /* border: 1px solid red; */
+    /* text-align: center; */
+
+}

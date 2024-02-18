@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  color: black;
+}
+
+body {
+  font-family: GmarketSansMedium;
+  font-size: 10rem;
+  /* background: black; */
+}
+/*
+.text_box0_wrap0 {
+  z-index: 99;
+  color: grey;
+  text-align: right;
+  font-size: 7rem;
+  font-weight: 900;
+}
+
+.white_box {
+  z-index: 98;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 300%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  border: 0px solid red;
+
+  border-bottom: 400px solid rgba(255, 255, 255, 0.1);
+  border-top: 400px solid transparent;
+  border-left: 350px solid rgba(255, 255, 255, 0.1);
+  border-right: 350px solid transparent;
+
+
+.btn0 {
+  z-index: 99;
+  position: absolute;
+  top: 0;
+  width: 100px;
+  height: 30px;
+}*/
+.Brand_Newworld {
+  font-size: 5rem;
+  display: inline-block;
+  position: relative;
+  color: white;
+  text-shadow: 2px 2px 1px black;
+}
+.Brand_Newworld:before {
+  content: "Brand_Newworld is comming for you";
+  display: block;
+  position: absolute;
+  width: 0px;
+  overflow: hidden;
+  color: black;
+  white-space: nowrap;
+}
+
+.Brand_Newworld:hover:before {
+  transition: all 1s linear;
+  width: 100%;
+}

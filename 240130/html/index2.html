@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자기소개서</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <!-- div.wrap 입력시 ↓ 생성됨 -->
+    <div class="wrap">
+        <p class="title">게임 설명서</p>
+        <div class="menu">
+            <span onclick="pic.src='img/bg1.webp',tip.innerHTML='엔젤 선택'">엔젤</span>
+            <span onclick="pic.src='img/bg2.jpeg',tip.innerHTML='리니지 선택'">리니지</span>
+            <span onclick="pic.src='img/bg3.jpeg',tip.innerHTML='카트라이더 선택'">카트라이더</span>
+            <span onclick="pic.src='img/img1.jpg',tip.innerHTML='햄버거1 선택'">햄버거1</span>
+            <span onclick="pic.src='img/img2.jpg',tip.innerHTML='햄버거2 선택'">햄버거2</span>
+        </div>
+        <div class="bg">
+            <img src="img/bg2.jpeg" alt="" id="pic">
+        </div>
+            <p class="text" id="tip">게임 설명이 들어갑니다.</p>
+    </div>
+</body>
+</html>

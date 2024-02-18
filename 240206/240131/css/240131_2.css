@@ -1,0 +1,182 @@
+/* 부모태그는 relitive로 잡고 자식은 absolute로 잡으면 원하는대로 배치가능하다. */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.layout{
+    position: relative;
+    top: 50px; left: 50px;
+    width: 200px; height: 850px;
+    border: 1px solid black;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background: black;
+}
+.layout2{
+    position: absolute;
+    margin-left: 200px;
+    width: 1400px; height: 850px;
+    border: 1.5px solid black;
+    border-top-right-radius:50px ;
+    border-bottom-right-radius:50px ;
+    background: white;
+}
+.left {
+    position: absolute;
+    top: 50px; left: 50px;
+    width: 200px; height: 700px;
+    border: 1px solid #ccc;
+    background: #f2f2f2;
+}
+.left .pic {
+    width: 150px; height: 150px;
+    border: 1px solid #ccc;
+    background: #ccc;
+    margin: 20px auto;
+}
+.left .text1,
+.left .text2{
+    width: 150px; height: 30px;
+    line-height: 30px ;
+    border: 0px solid green;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.left .text2{
+    font-size: 50px;
+    margin-top: 10px;
+    font-family: hy견고딕;
+    height: 70px;
+    line-height: 70px;   
+}
+
+.left .text3{
+    font-size: 13px;
+    text-align: center;
+    margin-top: -10px;
+}
+/* 메뉴 */
+.left .menu{
+    text-align: center;
+    line-height: 40px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.left .menu:hover{
+    color:black;
+    background: #ccc;
+}
+.left .left_text{
+    text-align: center;
+}
+.left .text456{
+    margin:10px;
+    line-height: 15px;
+    font-size: 10px;
+}
+.left .pic{
+    width: 100px;
+}
+
+.right {
+    display: none;
+    margin-top: -51px;
+    margin-left: -150px;
+    width: 1300px; height: 800px;
+    top: 50px; left: 350px;
+    position: absolute;
+    border: 1px solid #ccc;
+    text-align: left;
+    font-size: 25px;
+
+    background: white;
+    padding: 50px;
+}
+
+.right .right_text{
+    border: 0px solid black;
+}
+.right p:first-child{
+    width: 100%; height: 50px;
+    line-height: 50px;
+    color: white;
+    background: black;
+    text-indent: 15px;
+    font-family: hy견고딕;
+    font-size: 2rem;
+    /* border: 1px solid red; */
+}
+
+.right p{
+    margin: 10px;
+    padding: 0px;
+    /* border: 1px solid blue; */
+    height: 30px;
+}
+#right1 {
+    background: url(../img/bg2.jpeg)no-repeat right bottom;
+    background-size: 30%;
+}
+
+/* right4 화면 작성 */
+.right .right_menu {
+    width: 100%; height: 50px;
+    border: 0px solid blue;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right .right_menu li{
+    width: 15%; height: 100%;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.right .right4_box {
+    width: 100%; height: 600px;
+    margin-top: 15px;
+    border: 1px solid blue;
+    display: flex;
+}
+
+.right .right4_box div {
+    width: 100%; height: 100%;
+    border: 1px solid red;
+}
+.right .right4_box .right4_small {
+    width: 30%;
+    margin-top: 0px;
+    border: 1px solid orange;
+}
+.right .right4_box .right4_small li {
+    width: 80%; height: 100px;
+    margin-top: 15px;
+    margin-left: 15px;
+
+    border: 1px solid red;
+}
+
+.right .right4_box .right4_small li img{
+    width: 100%; height: 100%;
+}
+
+/* 오른쪽 .right4 박스 안에 작은 그림 5개 */
+.right .right4_box .right4_big {
+    width: 80%;
+    border: 1px solid red;
+}
+
+.right .right4_box .right4_big img{
+    width: 80%; height: 100%;
+    margin-top: 0px;
+}
+
+.right .right4_box .right4_big .right4_pic{
+    width: 100%; height: 100%;
+}

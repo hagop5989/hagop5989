@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!--  html 웹표준 문서임을 알려줌 -->
+<html lang="ko">
+    <!-- html 시작 -->
+    <!-- tag = <와>사이에 사용하는 명령어 -->
+<head>
+    <style>
+        .imgset {
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        }
+        /* 
+        스타일 우선순위(인라인>내부>외부)
+        */
+        p{
+          border: 3px solid orange;
+          }
+        span{
+            border: 3px solid green;
+            margin-right: 100px;
+            /* margin = 여백 */
+            }
+        img{
+            width: 20%;
+            height: 20%;
+            
+            }
+    </style>
+    <!-- head = html 정보를 알려주는 tag -->
+    <!-- meta =  관련정보 중 사용 코드는 유니코드(utf8 /전세계 언어를 모두 표현) -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 반응형 사용시 디바이스(장치)설정 -->
+    <title>굿 디자인의 법칙</title>
+    <!-- 웹페이지 제목 -->
+    </head>
+    <!-- 상위에 있는 tag를 부모태그, 그 안에 들어있는 태그를 자식태그, 같은레벨은 형제태그, 자식태그 안에는 손자태그라 함 -->
+<body>
+    <!-- 본문내용 -->
+    굿 디자인이란?<br>
+    <!--  br = 줄바꿈 tag -->
+    <p>굿 디자인의 7가지 특성</p>
+    <!--  p = 문장태그: 자동 줄 바꿈(2줄) -->
+    그 중에 제일은 합목적성(기능성)<br>
+    경제성<br>
+    창조성<br>
+    <p>
+        훌륭한 예술가는 모방하는 사람이다.
+    </p>
+    <p style="border: 5px solid blue;">
+        위대한 미술가는 도용하는 사람이다.
+    </p>
+    <div class="imgset">
+        <img src="img/img1.jpg" alt="img1" style="width: 20%;">  
+    <img src="img/img2.jpg" alt="img2">
+    <img src="img/img3.jpg" alt="img3">
+    </div>
+    <!-- img = 그림태그 -->
+    <div style="border: 5px solid red;">
+        <p>문장을 쓰고</p>
+        <p>문장을 쓰고</p>
+        <p>문장을 쓰고</p>
+        <img src="img/img4.jpg" alt="img4">
+    </div>
+    <span>
+        span태그
+    </span>
+    <span>
+        span태그
+    </span>
+    <span>
+        span태그
+    </span>
+
+    <!-- 
+        div = 항목(공간)구분 태그(보자기로 묶는다) 
+        p 태그 안에 p태그 들어갈 수 없다
+        p 태그 안에 div태그 들어갈 수 없다
+        
+        div 태그 안에 p태그 들어갈 수 있다
+        div 태그 안에 div태그 들어갈 수 있다
+        css = html(데이터) 디자인 언어
+        inline style = 태그 안에 스타일 지정
+        border =  5px solid blue ;
+                  두께 선종류 색
+    -->
+    
+</body>
+</html>
+

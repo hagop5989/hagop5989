@@ -1,0 +1,382 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+.nanumgothic * {
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: Nanum Gothic;
+  font-weight: 700;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 0.8rem;
+  width: 360px;
+  height: 740px;
+  border: 1px solid black;
+}
+
+nav {
+  border-right: 1px solid grey;
+  width: 50px;
+  height: 650px;
+  position: relative;
+  background-color: #f6f6f6;
+  opacity: 0.7;
+}
+
+nav div {
+  border: 0px solid grey;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+nav div:hover {
+  cursor: pointer;
+}
+
+nav_wrap0 {
+  position: absolute;
+  top: 500px;
+  left: 0;
+}
+nav_wrap1 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.top {
+  position: absolute;
+  transform: translateX(2000%);
+  top: 0px; left: 85px;
+  width: 50px; height: 100%;
+  border: 0px solid red;
+  font-size: 0.8rem;
+  font-weight: 900;
+  display: flex;
+}
+
+.top div {
+  width: 20px;
+}
+
+header_wrap0 {
+  margin-right: -15px;
+  display: flex;
+}
+
+.header_search {
+  font-size: 1rem;
+  margin-right: -20px;
+}
+
+.header_plusfriend {
+  font-size: 1rem;
+}
+header {
+  position: absolute;
+  top: 20px;
+  right: 50%;
+  transform: translateX(260%);
+
+  border: 0px solid orange;
+}
+
+header div {
+  text-align: center;
+  border: 0px solid green;
+  width: 50px;
+}
+.header_friend {
+  position: absolute;
+  text-indent: 10px;
+  top: 0;
+  right: 255px;
+  font-size: 1.1rem;
+  font-weight: 900;
+}
+.me {
+  position: absolute;
+  margin-top: 5px;
+  width: 308px;
+  height: 70px;
+  line-height: 70px;
+  font-weight: 705;
+  top: 50px;
+  display: flex;
+  margin-left: 50px;
+  border: 0px solid orange;
+}
+.me div {
+  width: 50px;
+  height: 50px;
+}
+
+me_wrap0 {
+  width: 200px;
+  line-height: 50px;
+  display: flex;
+  border: 0px solid black;
+}
+.me:hover {
+  background: #e9e7e7;
+}
+
+.me_name {
+  width: 100px;
+  height: 60px;
+  line-height: 60px;
+  margin-left: 10px;
+  border: 0px solid red;
+}
+.me_pic {
+  margin-left: 5px;
+  margin-top: 7px;
+  border-radius: 19px;
+  width: 70px;
+  height: 70px;
+  line-height: 50px;
+  border: 0px solid red;
+  background: url(profile.jpg);
+  background-size: 100% 100%;
+}
+
+me_wrap1 {
+  line-height: 50px;
+  position: absolute;
+  right: 0px;
+  display: flex;
+  text-align: center;
+  border: 0px solid blue;
+}
+
+me_wrap1 .me_pic2 {
+  width: 40px;
+  height: 40px;
+  margin-top: 11px;
+  margin-right: -15px;
+  border-radius: 14px;
+  background: url(profile.jpg);
+  background-size: 100% 100%;
+}
+.me_etc {
+  height: 60px;
+  line-height: 60px;
+  font-size: 0.9rem;
+  color: grey;
+  font-weight: 550;
+}
+
+.fav {
+  border-top: 0px solid grey;
+  position: absolute;
+  top: 120px;
+
+  margin-left: 50px;
+  width: 308px;
+  height: 200px;
+}
+.fav span {
+  color: grey;
+  font-size: 0.75rem;
+  margin-left: 5px;
+}
+
+.fav0:hover {
+  background: #e9e7e7;
+}
+.fav1:hover {
+  background: #e9e7e7;
+}
+.fav2:hover {
+  background: #e9e7e7;
+}
+.recom_sub_wrap1:hover {
+  background: #e9e7e7;
+}
+.fav0_pic {
+  width: 50px;
+  height: 50px;
+  background: url(bg0.JPG);
+  background-size: 100% 100%;
+  border-radius: 15px;
+}
+.fav1_pic {
+  width: 50px;
+  height: 50px;
+  background: url(bg1.JPG);
+  background-size: 100% 100%;
+  border-radius: 15px;
+}
+.fav2_pic {
+  width: 50px;
+  height: 50px;
+  background: url(bg2.jpg);
+  background-size: 100% 100%;
+  border-radius: 15px;
+}
+.fav0 {
+  display: flex;
+  width: 308px;
+  border: 0px solid blue;
+  line-height: 50px;
+}
+.fav1 {
+  display: flex;
+  line-height: 50px;
+}
+#fav1_name2 {
+  width: 175px;
+  height: 30px;
+  line-height: 30px;
+  margin-top: 9px;
+  margin-left: 8px;
+  font-size: 0.7rem;
+  text-indent: 10px;
+  border: 1px solid green;
+  border-radius: 15px;
+}
+.fav2 {
+  display: flex;
+  line-height: 50px;
+  border-bottom: 1px solid grey;
+}
+.recom {
+  position: relative;
+  bottom: 360px;
+  margin-left: 50px;
+  width: 308px;
+  height: 65px;
+  border: 0px solid blue;
+}
+.recom_sub_up {
+  margin-right: 10px;
+}
+.recom_sub_pic {
+  margin-left: 1px;
+  width: 45px;
+  height: 40px;
+  background: url(logo.JPG);
+  background-size: 100% 100%;
+}
+.recom_sub_wrap0 {
+  display: flex;
+  justify-content: space-between;
+  height: 16px;
+}
+.recom_sub_wrap1 {
+  height: 50px;
+  border: 0px solid green;
+  line-height: 40px;
+  display: flex;
+}
+
+.recom_sub_14 {
+  margin-left: 10px;
+  font-size: 0.7rem;
+  color: grey;
+}
+.friend {
+  margin-left: 50px;
+  position: relative;
+  bottom: 350px;
+  width: 308px;
+  height: 250px;
+  border: 0px solid blue;
+}
+.friend_sub {
+  margin-top: 10px;
+}
+
+.friend_sub_wrap0 {
+  border-top: 1px solid grey;
+  display: flex;
+  justify-content: space-between;
+  color: grey;
+  font-size: 0.7rem;
+}
+
+.friend_sub_wrap1 {
+  width: 306px;
+  border: 0px solid red;
+  display: flex;
+}
+.friend_sub_pic0 {
+  width: 45px;
+  height: 40px;
+  border: 0px solid red;
+  background: url(fr1.JPG);
+  background-size: 100% 100%;
+}
+.friend_sub_pic1 {
+  width: 45px;
+  height: 40px;
+  border: 0px solid red;
+  background: url(fr2.JPG);
+  background-size: 100% 100%;
+}
+.friend_sub_pic2 {
+  width: 45px;
+  height: 40px;
+  border: 0px solid red;
+  background: url(fr3.JPG);
+  background-size: 100% 100%;
+}
+.friend_sub_text {
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+  border: 0px solid orange;
+}
+
+.footer_sub {
+  position: relative;
+  bottom: 315px;
+  left: 0;
+  width: 360px;
+  height: 90px;
+  /* border: 1px solid red; */
+  display: flex;
+  border-top:1px solid grey;
+}
+.footer_sub_text0_wrap {
+  line-height: 50px;
+  display: block;
+  font-size: 0.85rem;
+}
+.footer_sub_text1 {
+  line-height: 0;
+  color: grey;
+}
+
+.footer_sub_pic {
+  margin: 10px;
+  margin-left: 30px;
+  width: 130px;
+  height: 70px;
+  border: 0px solid black;
+  background: url(bg10.JPG);
+  background-size: 100% 100%;
+  border-radius: 18px;
+}
+
+.name {
+  text-indent: 5px;
+}
+
+.hover:hover {
+  background: #e9e7e7;
+}
+
+.cursor {
+  cursor: pointer;
+}

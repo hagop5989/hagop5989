@@ -1,0 +1,60 @@
+*{
+    margin:0;
+}
+.wrap{
+    width: 700px; height: 800px;
+    /* 700px 정도면 모바일정도 */
+    border: 0px solid blue;
+    margin: auto;
+    background: black;
+    color: white;
+}
+
+.wrap .title{
+    border: 0px solid white;
+    font-size: 30px;
+    text-align: center;
+    line-height: 70px;
+}
+.wrap .menu{
+    width: 100%; height: 50px;
+    border: 0px solid red;
+    background-color:rgb(1, 20, 50);
+}
+.wrap .menu span{    
+    margin-left: 50px;
+    line-height: 50px;
+    border: 0px solid cyan;
+    cursor: pointer;
+    
+}
+.wrap .menu span:hover{
+    color: skyblue;   
+}
+.wrap .list1 ol{
+    display: none;
+}
+.wrap .bg{
+    width: 100%;
+    height: 300px;
+    border: 1px solid white;    
+}
+.wrap .bg img{
+    width: 100%; height: 100%;
+}
+.wrap .bg img:hover{
+   rotate1:hover{transform: rotate(20deg);}
+}
+.wrap .text{
+    border: 0px solid red;
+    text-align: center;
+    font-size: 30px;
+    line-height: 70px;
+    background-color: rgba(196, 42, 42, 0.575);
+}
+#tip:hover{
+    color: red;
+
+}
+
+
